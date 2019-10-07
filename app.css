@@ -16,32 +16,32 @@
 }
 .table{
     border: 1px solid #000;
-    background-color: #ffbf80;
+    background-color: #6084ff;
     width: 100px;
     height: 200px;
     position: relative;
 }
 .name{
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.7);
     padding: 10px;
     color: white;
     position: absolute;
 }
 .bloc-gauche .name1{
-    top: 20px;
-    left: -20px;
+    top: 40px;
+    right: 50px;
 }
 .bloc-droit .name1{
-    top: 20px;
-    right: -20px;
+    top: 40px;
+    left: 50px;
 }
 .bloc-gauche .name2{
-    bottom: 20px;
-    left: -20px;
+    bottom: 40px;
+    right: 50px;
 }
 .bloc-droit .name2{
-    bottom: 20px;
-    right: -20px;
+    bottom: 40px;
+    left: 50px;
 }
 .bloc-gauche .name{
     border-bottom-left-radius: 10px;
