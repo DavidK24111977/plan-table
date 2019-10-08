@@ -1,3 +1,6 @@
+body{
+    font-family: sans-serif;
+}
 #content{
     width: 40%;
     margin: 50px auto;
@@ -15,7 +18,7 @@
     float: right;
 }
 .table{
-    border: 1px solid #000;
+    border: 2px solid #fff;
     background-color: #6084ff;
     width: 100px;
     height: 200px;
@@ -26,6 +29,13 @@
     padding: 10px;
     color: white;
     position: absolute;
+    width: 80px;
+}
+.bloc-gauche .name{
+    text-align: left;
+}
+.bloc-droit .name{
+    text-align: right;
 }
 .bloc-gauche .name1{
     top: 40px;
